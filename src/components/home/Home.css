@@ -1,0 +1,32 @@
+.home_contenedor{
+  height: auto; 
+  min-height: 100vb;
+  background-image: url("../../../public/img/background.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_contenedor_login{
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 40%;
+  background-color: rgba(204, 34, 190, 0.87);
+  color: white;
+  box-shadow: 3px 3px 3px 4px black;
+}
+.home_contenedor_login:hover{
+  transform: scale(1.01);
+  transition:ease-in-out;
+}
+
+@media (max-width:480px) {
+  .home_contenedor{
+    background-size: auto;
+  }
+  .home_contenedor_login{
+    width: 90%;
+  }
+} 

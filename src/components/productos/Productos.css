@@ -1,0 +1,16 @@
+.producto_buscador{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  form{
+    width: 90%;
+  }
+}
+.producto_card{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+}

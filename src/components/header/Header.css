@@ -1,0 +1,8 @@
+.header_img_contenedor:hover{
+  transform: scale(1.05);  
+  transition: ease-in-out;
+}
+.header_img{
+  width: 80px;
+  border-radius: 50%;
+}
