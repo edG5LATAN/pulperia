@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Productos.css";
 import Cards from "../card/Cards";
+import { datos } from "../service/datos/Datos";
+import { data } from "react-router-dom";
 
 function Productos() {
+
+  const [info,setinfo]=useState(datos)
+
+
   return (
     <div className="producto_contenedor" >
       <div className="producto_buscador">
@@ -19,13 +25,22 @@ function Productos() {
         </form>
       </div>
       <div className="producto_card">
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
+        {
+          info==[]
+          ?
+          <>
+          cargando...
+          </>
+          :
+          <>
+          {
+            info.map((res,index)=>{
+              return<Cards key={index} producto={res}/>
+            })
+          }
+          </>
+          
+        }
       </div>
     </div>
   );

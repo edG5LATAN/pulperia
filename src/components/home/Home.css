@@ -20,6 +20,7 @@
 .home_contenedor_login:hover{
   transform: scale(1.01);
   transition:ease-in-out;
+  cursor: pointer;
 }
 
 @media (max-width:480px) {

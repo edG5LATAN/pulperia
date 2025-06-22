@@ -1,77 +1,50 @@
 import React from "react";
 import "./Cards.css";
 
-function Cards() {
+function Cards({ producto }) {
+
   return (
-    <div class="card card_contenedor">
-      <img src="./img/pepsi.webp" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <p class="card-text">
-          producto pepsi varios tamanos
-        </p>
+    <div className="card card_contenedor">
+      <div className="card_contenedor_img">
+        <img src={producto.imagen} className="card-img-top" alt="..." />
+        <p>{producto.marca}</p>
       </div>
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
-            >
-              MiniPepsi
-            </button>
-          </h2>
-          <div
-            id="collapseOne"
-            class="accordion-collapse collapse show"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">100Lps</div>
-          </div>
+      <div className="card-title card_contenedor_card px-1 py-1 mb-0 pb-2">
+        <p className="text-center fw-semibold text-uppercase">{producto.nombre}</p>
+        <div className="m-0 p-0 mb-1">
+          <label htmlFor="producto">Typo</label>
+          <input
+            value={producto.tipo}
+            readOnly
+            className="w-100 px-1 m-0 text-center"
+            type="text"
+            name="producto"
+            id="producto"
+          />
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              2 Litros plastico
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            class="accordion-collapse collapse"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">90Lps</div>
-          </div>
+        <div className="m-0 p-0 mb-1">
+          <label htmlFor="nombre">Cantidad</label>
+          <input
+          value={producto.cantidad}
+            readOnly
+            className="w-100 px-1 m-0 text-center"
+            type="text"
+            name="nombre"
+            id="nombre"
+          />
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              1Litro plastico
-            </button>
-          </h2>
-          <div
-            id="collapseThree"
-            class="accordion-collapse collapse"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">45Lps</div>
+       
+        <div className="container mb-2">
+          <div className="input-group">
+            <input
+            value={producto.precio}
+              type="text"
+              readOnly
+              placeholder="00.00"
+              className="form-control text-center fw-semibold"
+              aria-label="Dollar amount (with dot and two decimal places)"
+            />
+            <span className="input-group-text">LPS</span>
           </div>
         </div>
       </div>

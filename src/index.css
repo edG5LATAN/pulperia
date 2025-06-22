@@ -2,4 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+}
+body{
+  background: #afe5fa;
+background: linear-gradient(90deg, rgba(175, 229, 250, 1) 0%, rgba(124, 252, 188, 1) 50%, rgba(255, 251, 212, 1) 100%);
+}
+@media (max-width:600px) {
+  body{
+    background: #afe5fa;
+background: linear-gradient(90deg, rgba(175, 229, 250, 1) 0%, rgba(124, 252, 188, 1) 50%, rgb(248, 236, 132) 100%);
+ 
+  }
 }

@@ -5,6 +5,7 @@ import Home from './components/home/Home'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Productos from './components/productos/Productos'
+import Aserca from './components/aserca/Aserca'
 
 
 function App() {
@@ -13,11 +14,11 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      {/* <Header /> */}
+      <Header />
        <Routes>
-        {/* <Route path='/' element={<Home />} /> */}
-        <Route path='/' element={<Productos />} />
-        {/* <Route path='/' element={<Home />} /> */}
+        <Route path='/' element={<Home />} />
+        <Route path='/producto' element={<Productos />} />
+        <Route path='/asercade' element={<Aserca />} />
        </Routes>
        <Footer />
       </BrowserRouter>
