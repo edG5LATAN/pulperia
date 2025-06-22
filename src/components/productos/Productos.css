@@ -12,9 +12,11 @@
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 20px;
-  form{
-    width: 70%;
-  }
+  
+}
+.producto_form{
+  width: 60%;
+  
 }
 .producto_card{
   display: flex;
