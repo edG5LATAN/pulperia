@@ -1,8 +1,25 @@
-.header_img_contenedor:hover{
-  transform: scale(1.05);  
+.header_contenedor{
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.header_img:hover{
+  transform: scale(1.02);  
   transition: ease-in-out;
 }
 .header_img{
   width: 80px;
   border-radius: 50%;
+}
+@media (max-width:420px) {
+  .header_contenedor{
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .header_img{
+    width: 70px;
+  }
 }

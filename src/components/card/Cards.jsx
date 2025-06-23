@@ -16,7 +16,7 @@ function Cards({ producto }) {
           <input
             value={producto.tipo}
             readOnly
-            className="w-100 px-1 m-0 text-center"
+            className="w-100 px-1 m-0 text-center text-bg-light"
             type="text"
             name="producto"
             id="producto"
@@ -27,7 +27,7 @@ function Cards({ producto }) {
           <input
           value={producto.cantidad}
             readOnly
-            className="w-100 px-1 m-0 text-center"
+            className="w-100 px-1 m-0 text-center text-bg-light"
             type="text"
             name="nombre"
             id="nombre"

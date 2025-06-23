@@ -26,13 +26,16 @@
   margin: 10px;
   padding-top: 15px;
 }
+@media (max-width:800px) {
+  .producto_form{
+    width: 80%;
+  }
+}
 @media (max-width:400px) {
   .producto_card{
     width: 100%;
   }
-  .producto_buscador{
-    form{
-    width: 90%;
-    }
+  .producto_form{
+  width: 90%;
   }
 }

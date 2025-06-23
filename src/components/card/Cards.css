@@ -36,6 +36,7 @@
 }
 @media (max-width:600px) {
   .card_contenedor{
-    width: 160px;
+    width: 180px;
+    margin: 2px;
   }
 }
