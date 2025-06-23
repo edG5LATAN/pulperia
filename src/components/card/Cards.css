@@ -27,7 +27,7 @@
   box-shadow: 1px 1px 1px black;
 }
 .card_contenedor_card{
-  background-color: rgb(37, 228, 3);
+  background-color: rgb(55, 137, 231);
 }
 @media (max-width:800px) {
   .card_contenedor{

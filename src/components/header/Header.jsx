@@ -8,7 +8,7 @@ function Header() {
     <ul className="nav nav-underline align-items-center justify-content-center pt-2 pb-1 header_contenedor">
       <li className="nav-item">
         <Link className="" to={"/"}>
-           <img className="header_img" src="../../../public/img/pulperia.jpg" alt="" />
+           <img className="header_img" src="../img/pulperia.jpg" alt="" />
         </Link>
       </li>
       <li className="nav-item">

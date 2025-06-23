@@ -12,7 +12,7 @@ function Cards({ producto }) {
       <div className="card-title card_contenedor_card px-1 py-1 mb-0 pb-2">
         <p className="text-center fw-semibold text-uppercase">{producto.nombre}</p>
         <div className="m-0 p-0 mb-1">
-          <label htmlFor="producto">Typo</label>
+          <label htmlFor="producto">Tipo</label>
           <input
             value={producto.tipo}
             readOnly
