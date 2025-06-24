@@ -38,27 +38,27 @@ export const datos = [
   {
     id: 5,
     marca: "yummies",
-    nombre:"con queso",
+    nombre:"ranchita",
     cantidad: "16 onz",
-    tipo: "ranchita",
+    tipo: "con queso",
     imagen: "https://media.larachycia.com/800x800/media/items/83060001.webp",
     precio: 15
   },
   {
     id: 6,
     marca: "yummies",
-    nombre: "picante",
+    nombre: "chicharron",
     cantidad: "16 onz",
-    tipo: "chicharron",
+    tipo: "picante",
     imagen: "https://snacksyummies.com/wp-content/uploads/2020/11/Chicharron-Picositos.webp",
     precio: 15
   },
   {
     id: 7,
     marca: "yummies",
-    nombre: "sin chile",
+    nombre: "chicharron",
     cantidad: "16 onz",
-    tipo: "chicharron",
+    tipo: "cacero",
     imagen: "https://lacolonia.vtexassets.com/arquivos/ids/249239-800-800?v=638689306391000000&width=800&height=800&aspect=true",
     precio: 15
   },
@@ -130,7 +130,7 @@ export const datos = [
     marca: "sula",
     nombre: "margarina",
     cantidad: "caja",
-    tipo: "cremmargarinaa",
+    tipo: "crema margarina",
     imagen: "https://sula.hn/wp-content/uploads/2020/04/0012_productos-sula-mantequilla-amarilla-400g.jpg",
     precio: 43
   },
@@ -268,6 +268,60 @@ export const datos = [
     tipo: "plastico",
     imagen: "https://lacolonia.vtexassets.com/arquivos/ids/184756/360-Bebidas-y-Jugos-Refrescos-Refrescos-de-Sabores_784562014506_1.jpg?v=637117566868000000",
     precio: 45 
+  },
+  {
+    id: 31,
+    marca: "sula",
+    nombre: "leche",
+    cantidad: "1 litros",
+    tipo: "entera",
+    imagen: "https://lacolonia.vtexassets.com/arquivos/ids/192913/cara-Lacteos-Derivados-y-Huevos-Leches-Liquidas-Enteras-y-Descemadas_7421000821359_1.jpg?v=637129725418970000",
+    precio: 25
+  },
+  {
+    id: 32,
+    marca: "sula",
+    nombre: "leche",
+    cantidad: "1 litro",
+    tipo: "descremada",
+    imagen: "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://sula.hn/wp-content/uploads/2020/01/leche-descremada-light-elecster-946ml.jpg",
+    precio: 30
+  },
+  {
+    id: 33,
+    marca: "sula",
+    nombre: "naranja",
+    cantidad: "1/2 litro",
+    tipo: "con pulpa",
+    imagen: "https://walmarthn.vtexassets.com/arquivos/ids/169767/Jugo-De-Naranja-Clasico-Carton-473-Ml-1-8665.jpg?v=637662812794370000",
+    precio: 20
+  },
+  {
+    id: 34,
+    marca: "sula",
+    nombre: "naranja",
+    cantidad: "1 litros",
+    tipo: "premiun",
+    imagen: "https://lacolonia.vtexassets.com/arquivos/ids/191158-800-800?v=637124492989300000&width=800&height=800&aspect=true",
+    precio: 60
+  },
+  {
+    id: 35,
+    marca: "leyde",
+    nombre: "leche",
+    cantidad: "1/2 litros",
+    tipo: "entera",
+    imagen: "https://leyde.hn/wp-content/uploads/leche-entera-bolsa-larga-duracion-473ml.jpg",
+    precio: 20
+  },
+  {
+    id: 36,
+    marca: "leyde",
+    nombre: "leche",
+    cantidad: "1 litros",
+    tipo: "entera",
+    imagen: "https://lacolonia.vtexassets.com/arquivos/ids/192921/cara-Lacteos-Derivados-y-Huevos-Leches-Liquidas-Enteras-y-Descemadas_795893101315_1.jpg?v=637129725453030000",
+    precio: 40
   }
 
 ]
