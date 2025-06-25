@@ -1,10 +1,11 @@
-.producto_contenedor{
+.producto_contenedor {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.producto_buscador{
+
+.producto_buscador {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -12,13 +13,14 @@
   margin-top: 10px;
   margin-bottom: 10px;
   padding-top: 20px;
-  
 }
-.producto_form{
+
+.producto_form {
   width: 60%;
-  
+
 }
-.producto_card{
+
+.producto_card {
   display: flex;
   width: 90%;
   justify-content: space-around;
@@ -26,16 +28,24 @@
   margin: 10px;
   padding-top: 15px;
 }
+
 @media (max-width:800px) {
-  .producto_form{
+  .producto_form {
     width: 80%;
   }
 }
-@media (max-width:400px) {
-  .producto_card{
+
+@media (max-width:450px) {
+  .producto_card {
     width: 100%;
   }
-  .producto_form{
-  width: 90%;
+  .producto_form {
+    width: 95%;
+    input{
+      font-size: larger;
+    }
+    button{
+      font-size: larger;
+    }
   }
 }

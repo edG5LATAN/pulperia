@@ -19,7 +19,7 @@ export const datos = [
   },
   {
     id: 3,
-    marca: "pepsi",    
+    marca: "pepsi",
     nombre: "pepsi",
     cantidad: "18onzas",
     tipo: "lata",
@@ -38,7 +38,7 @@ export const datos = [
   {
     id: 5,
     marca: "yummies",
-    nombre:"ranchita",
+    nombre: "ranchita",
     cantidad: "16 onz",
     tipo: "con queso",
     imagen: "https://media.larachycia.com/800x800/media/items/83060001.webp",
@@ -153,7 +153,7 @@ export const datos = [
     precio: 5
   },
   {
-   id: 18,
+    id: 18,
     marca: "maseca",
     nombre: "maseca",
     cantidad: "250g",
@@ -162,7 +162,7 @@ export const datos = [
     precio: 35
   },
   {
-   id: 19,
+    id: 19,
     marca: "aguazul",
     nombre: "aguazul",
     cantidad: "bolsita",
@@ -171,103 +171,103 @@ export const datos = [
     precio: 5
   },
   {
-   id: 20,
+    id: 20,
     marca: "primavera",
     nombre: "margarina",
     cantidad: "unidad",
     tipo: "margarina",
     imagen: "https://chedrauimx.vtexassets.com/arquivos/ids/49204897/8719200450516_00.jpg?v=638845996593330000",
-    precio: 12 
+    precio: 12
   },
   {
-   id: 21,
+    id: 21,
     marca: "tigo",
     nombre: "super 3 dias",
     cantidad: "3 dias",
     tipo: "super recarga",
     imagen: "https://lacoloniaqa.vteximg.com.br/arquivos/ids/170647-650-500/LA-COLONIA-PAGINA-WEB-1.jpg?v=638375585583800000",
-    precio: 38 
+    precio: 38
   },
   {
-   id: 22,
+    id: 22,
     marca: "tigo",
     nombre: "super 15 dias",
     cantidad: "15 dias",
     tipo: "super recarga",
     imagen: "https://lacoloniaqa.vteximg.com.br/arquivos/ids/170647-650-500/LA-COLONIA-PAGINA-WEB-1.jpg?v=638375585583800000",
-    precio: 68 
+    precio: 68
   },
   {
-   id: 23,
+    id: 23,
     marca: "claro",
     nombre: "super 3 dias",
     cantidad: "3 dias",
     tipo: "super recarga",
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsFRdiD5hZoQyylNmZ_w4RUJAbydc7fh7DpQ&s",
-    precio: 35 
+    precio: 35
   },
   {
-   id: 24,
+    id: 24,
     marca: "claro",
     nombre: "super 15 dias",
     cantidad: "15 dias",
     tipo: "super recarga",
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsFRdiD5hZoQyylNmZ_w4RUJAbydc7fh7DpQ&s",
-    precio: 65 
+    precio: 65
   },
   {
-   id: 25,
+    id: 25,
     marca: "cocacola",
     nombre: "cocacola",
     cantidad: "desechable",
     tipo: "plastico",
     imagen: "https://lacolonia.vtexassets.com/arquivos/ids/191396-800-800?v=637124493966270000&width=800&height=800&aspect=true",
-    precio: 28 
+    precio: 28
   },
   {
-   id: 26,
+    id: 26,
     marca: "cocacola",
     nombre: "cocacola",
     cantidad: "2Litros",
     tipo: "plastico",
     imagen: "https://latiendatotal.com/1132-large_default/coca-cola-desechable-2-litros.jpg",
-    precio: 45 
+    precio: 45
   },
   {
-   id: 27,
+    id: 27,
     marca: "cocacola",
     nombre: "cocacola",
     cantidad: "1.5 Litros",
     tipo: "vidrio",
     imagen: "https://labodega.com.pe/Adminbackend/fotos/producto14376.jpg",
-    precio: 35 
+    precio: 35
   },
   {
-   id: 28,
+    id: 28,
     marca: "cocacola",
     nombre: "cocacola",
     cantidad: "500 mg",
     tipo: "vidrio",
     imagen: "https://target.scene7.com/is/image/Target/GUEST_57b5917a-43cb-4602-aa0b-757c48d50b2e?wid=800&hei=800&qlt=80&fmt=webp",
-    precio: 25 
+    precio: 25
   },
   {
-   id: 29,
+    id: 29,
     marca: "cocacola",
     nombre: "uva",
     cantidad: "500 mg",
     tipo: "desechable",
     imagen: "https://acosa.com.hn/wp-content/uploads/2022/11/A54426.png",
-    precio: 25 
+    precio: 25
   },
   {
-   id: 30,
+    id: 30,
     marca: "cocacola",
     nombre: "uva",
     cantidad: "2 litros",
     tipo: "plastico",
     imagen: "https://lacolonia.vtexassets.com/arquivos/ids/184756/360-Bebidas-y-Jugos-Refrescos-Refrescos-de-Sabores_784562014506_1.jpg?v=637117566868000000",
-    precio: 45 
+    precio: 45
   },
   {
     id: 31,
@@ -322,6 +322,78 @@ export const datos = [
     tipo: "entera",
     imagen: "https://lacolonia.vtexassets.com/arquivos/ids/192921/cara-Lacteos-Derivados-y-Huevos-Leches-Liquidas-Enteras-y-Descemadas_795893101315_1.jpg?v=637129725453030000",
     precio: 40
+  },
+  {
+    id: 37,
+    marca: "yummies",
+    nombre: "taquerito",
+    cantidad: "16 onzas",
+    tipo: "picante",
+    imagen: "https://walmarthn.vtexassets.com/arquivos/ids/445513/33331_01.jpg?v=638592939184970000",
+    precio: 10
+  },
+  {
+    id: 38,
+    marca: "yummies",
+    nombre: "taquerito",
+    cantidad: "16 onzas",
+    tipo: "queson intenso",
+    imagen: "https://elmercaditosalvadoreno.com/cdn/shop/files/YummiesTaqueritosQuesoFusion180g.png?v=1740083702",
+    precio: 10
+  },
+  {
+    id: 39,
+    marca: "yummies",
+    nombre: "yumix",
+    cantidad: "16 onzas",
+    tipo: "tropical",
+    imagen: "https://snacksyummies.com/wp-content/uploads/2020/11/Yum-mix-tropical.png",
+    precio: 12
+  },
+  {
+    id: 40,
+    marca: "yummies",
+    nombre: "zibas",
+    cantidad: "16 onzas",
+    tipo: "miel mostaza",
+    imagen: "https://zibaspapas.com/wp-content/uploads/2022/06/zibas_mielmostaza_618x738.webp",
+    precio: 12
+  },
+  {
+    id: 41,
+    marca: "yummies",
+    nombre: "zibas",
+    cantidad: "16 onzas",
+    tipo: "crema especies",
+    imagen: "https://snacksyummies.com/wp-content/uploads/2020/11/Zibas-Crema-Especias.webp",
+    precio: 12
+  },
+  {
+    id: 42,
+    marca: "naturas",
+    nombre: "sofrito",
+    cantidad: "385 g",
+    tipo: "jalapeno",
+    imagen: "https://lacolonia.vtexassets.com/arquivos/ids/244179/7411000346990_1.jpg?v=638266109109070000",
+    precio: 18
+  },
+  {
+    id: 43,
+    marca: "naturas",
+    nombre: "ketchu",
+    cantidad: "385 g",
+    tipo: "salsa detomate",
+    imagen: "https://walmartni.vtexassets.com/arquivos/ids/180461/Naturas-Salsa-Tomate-Ketchup-Dp-385Gr-1-6636.jpg?v=637715098932000000",
+    precio: 18
+  },
+  {
+    id: 44,
+    marca: "tortuga",
+    nombre: "sal",
+    cantidad: "200 gramos",
+    tipo: "sal yodada",
+    imagen: "https://i0.wp.com/panaderiaextra.com/wp-content/uploads/2020/04/sal-yodada-en-bolsa-la-tortuga-200-g.jpg?fit=600%2C600&ssl=1",
+    precio: 9
   }
 
 ]

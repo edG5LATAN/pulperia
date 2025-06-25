@@ -3,6 +3,11 @@
   align-items: center;
   padding-bottom: 5px;
   padding-top: 5px;
+  li{
+    a{
+      font-size: larger;
+    }
+  }
 }
 .header_img:hover{
   transform: scale(1.02);  
