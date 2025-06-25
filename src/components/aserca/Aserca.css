@@ -1,7 +1,32 @@
-.asercade_contenedor{
+.asercade_contenedor {
   min-height: 100vh;
-  a{
-    text-decoration: none;
+}
+
+.aserca_contenedor_caja {
+  a {
+    color: rgb(165, 42, 42);
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: underline;
     text-align: center;
+  }
+}
+
+@media (max-width:480px) {
+  .aserca_contenedor_caja {
+    p {
+      font-size: larger;
+    }
+  }
+
+  .aserca_contenedor_caja a {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(4, 119, 4);
+    text-decoration: underline;
+  }
+  .aserca_contenedor_caja a:hover {
+    transform: scale(1.5);
   }
 }

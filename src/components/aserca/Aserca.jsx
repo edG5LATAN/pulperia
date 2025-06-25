@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Aserca() {
   return (
     <div className="d-flex justify-content-center align-items-center asercade_contenedor">
-      <div className="w-75">
+      <div className="w-75 aserca_contenedor_caja">
         <h2 className="text-uppercase text-center">Aserca de</h2>
         <p>
           Aplicacion para verifica precios de productos en tiempo real, ayudando
@@ -18,7 +18,7 @@ function Aserca() {
           detalles y costos de paginas online y de aplicaciones web. !
         </p>
         <br />
-        <a href="https://edtecnology.com" target="_blank" className="fw-semibold fst-italic text-danger-emphasis text-center">EDTECNOLOGY.COM</a>
+        <a href="https://edtecnology.com" target="_blank" className="fst-italic">EDTecnology.com</a>
       </div>
     </div>
   );
