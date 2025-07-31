@@ -1,12 +1,8 @@
-# React + Vite
+## Proyecto de juego de adivinanza 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Logo](https://i.pinimg.com/736x/a7/25/8b/a7258b90ea3932f420e7468f7b8a2fa7.jpg)
 
-Currently, two official plugins are available:
+## Descripcion
+Proyecto de pulperia de precios online creado con React, HTML, CSS, JS donde podras ingresar un usuario o usuarios para validar quienes puedan ingresar a ver losprecios de cada producto su backend fue creado con springBoot springSecurity y autenticacion de usuario por roles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[aca podras ver el juego desplegado](https://pulperia.vercel.app/producto)
